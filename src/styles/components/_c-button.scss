@@ -5,4 +5,8 @@
   font-size: rem(18px);
 
   @include border-radius(56px);
+
+  @include media-up(md) {
+    font-size: rem(20px);
+  }
 }
