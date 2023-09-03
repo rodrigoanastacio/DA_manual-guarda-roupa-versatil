@@ -5,5 +5,9 @@
   background-image: url("/images/hero-background.jpg");
   background-repeat: no-repeat;
   background-size: cover;
-  background-position: center;
+  background-position: center right;
+
+  @include media-up(md) {
+    background-position: center;
+  }
 }
