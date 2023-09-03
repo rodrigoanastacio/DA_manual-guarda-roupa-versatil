@@ -1,0 +1,38 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+:root {
+  --green-500: #887360;
+  --green-100: #aaa296;
+
+  --gray-800: #0d1525;
+  --gray-700: #323334;
+  --gray-100: #d6d4d4;
+}
+
+html,
+body {
+  font-family: "Lato", sans-serif;
+
+  a {
+    color: inherit;
+    text-decoration: none;
+  }
+
+  img {
+    display: block;
+    width: 100%;
+  }
+
+  button {
+    cursor: pointer;
+  }
+}

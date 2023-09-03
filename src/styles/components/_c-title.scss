@@ -1,0 +1,23 @@
+.c-title {
+  width: 100%;
+  max-width: 1030px;
+  font-size: rem(40px);
+  font-weight: bold;
+  line-height: 50px;
+
+  &__pretitle {
+    font-size: rem(32px);
+    font-weight: 300;
+    letter-spacing: 3.6px;
+    color: var(--gray-700);
+  }
+
+  &__subtitle {
+    color: var(--gray-700);
+    font-size: rem(24px);
+    font-weight: normal;
+    line-height: rem(32px);
+    padding-top: rem(24px);
+    padding-bottom: rem(24px);
+  }
+}

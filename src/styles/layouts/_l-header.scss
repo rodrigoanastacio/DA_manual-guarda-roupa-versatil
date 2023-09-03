@@ -1,0 +1,26 @@
+.l-header {
+  & .c-container {
+    @include flex-element(column, center, center);
+  }
+
+  & .c-title {
+    text-transform: uppercase;
+    text-align: center;
+    margin-bottom: rem(32px);
+
+    &__pretitle {
+      text-transform: uppercase;
+      margin-bottom: rem(16px);
+      text-align: center;
+    }
+
+    &__subtitle {
+      width: 100%;
+      max-width: rem(818px);
+      border-top: 1px solid rgba(50, 51, 52, 0.1);
+      border-bottom: 1px solid rgba(50, 51, 52, 0.1);
+      text-align: center;
+      margin-bottom: rem(32px);
+    }
+  }
+}

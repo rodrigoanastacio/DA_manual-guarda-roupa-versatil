@@ -1,0 +1,5 @@
+// Convert from Pixel to REM
+@function rem($size) {
+  $remSize: calc($size / 16px);
+  @return #{$remSize}rem;
+}

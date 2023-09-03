@@ -1,0 +1,8 @@
+.c-button {
+  background-color: var(--green-500);
+  color: var(--gray-100);
+  padding: rem(16px) rem(32px);
+  font-size: rem(18px);
+
+  @include border-radius(56px);
+}

@@ -1,0 +1,44 @@
+@mixin media-up($breakpoint) {
+  @if $breakpoint == sm {
+    @media only screen and (min-width: $container-sm) {
+      @content;
+    }
+  }
+
+  @if $breakpoint == md {
+    @media only screen and (min-width: $container-md) {
+      @content;
+    }
+  }
+
+  @if $breakpoint == lg {
+    @media only screen and (min-width: $container-lg) {
+      @content;
+    }
+  }
+
+  @if $breakpoint == xl {
+    @media only screen and (min-width: $container-xl) {
+      @content;
+    }
+  }
+
+  @if $breakpoint == xxl {
+    @media only screen and (min-width: $container-xxl) {
+      @content;
+    }
+  }
+}
+
+@mixin flex-element($direction, $align, $justify) {
+  display: flex;
+  flex-direction: $direction;
+  align-items: $align;
+  justify-content: $justify;
+}
+
+@mixin border-radius($radius) {
+  border-radius: $radius;
+  -webkit-border-radius: $radius;
+  -moz-border-radius: $radius;
+}
