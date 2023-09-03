@@ -25,10 +25,15 @@
 
   &__subtitle {
     color: var(--gray-700);
-    font-size: rem(24px);
+    font-size: rem($font-subtitle-mobile);
     font-weight: normal;
-    line-height: rem(32px);
+    line-height: rem($line-height-subtitle-mobile);
     padding-top: rem(24px);
     padding-bottom: rem(24px);
+
+    @include media-up(md) {
+      font-size: rem($font-subtitle);
+      line-height: rem($line-height-subtitle);
+    }
   }
 }
