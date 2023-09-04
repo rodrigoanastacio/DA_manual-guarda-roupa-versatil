@@ -1,13 +1,16 @@
-@import "./base/reset";
-
 @import "./abstracts/variables";
 @import "./abstracts/mixins";
 @import "./abstracts/functions";
 
+@import "./base/reset";
+
 @import "./components/c-container";
 @import "./components/c-hero";
 @import "./components/c-title";
+@import "./components/c-text";
 @import "./components/c-button";
+@import "./components/c-image";
 @import "./components/c-benefit-bar";
 
 @import "./layouts/l-header";
+@import "./layouts/l-section";

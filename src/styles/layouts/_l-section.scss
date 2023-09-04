@@ -1,0 +1,50 @@
+.l-section {
+  padding-top: rem(120px);
+  padding-bottom: rem(120px);
+
+  & .c-container {
+    @include flex-element(column, start, start);
+
+    @include media-up(md) {
+      @include flex-element(row, center, start);
+    }
+  }
+
+  &__wrapper {
+    width: 100%;
+    flex: 1;
+  }
+
+  & .c-title {
+    margin-bottom: rem(24px);
+  }
+
+  & .c-text {
+    font-size: rem(18px);
+  }
+
+  &--benefits {
+    & .c-container {
+      gap: rem(60px);
+
+      @include media-up(md) {
+        gap: rem(30px);
+      }
+    }
+
+    & .l-section__wrapper + .l-section__wrapper {
+      display: flex;
+      justify-content: center;
+    }
+
+    & .u-h3 {
+      margin-top: rem(24px);
+    }
+
+    & .c-image {
+      max-width: rem(450px);
+
+      @include border-radius(16px);
+    }
+  }
+}

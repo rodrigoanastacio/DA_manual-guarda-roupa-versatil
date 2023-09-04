@@ -1,0 +1,9 @@
+.c-text {
+  font-size: rem($font-text);
+  line-height: rem($line-height-text);
+  color: var(--gray-500);
+
+  & + .c-text {
+    margin-top: rem(16px);
+  }
+}

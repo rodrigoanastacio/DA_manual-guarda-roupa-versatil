@@ -15,6 +15,7 @@
 
   --gray-800: #0d1525;
   --gray-700: #323334;
+  --gray-500: #706c6c;
   --gray-100: #d6d4d4;
 }
 
@@ -35,4 +36,10 @@ body {
   button {
     cursor: pointer;
   }
+}
+
+// Utils
+.u-h3 {
+  font-size: $font-h3;
+  line-height: $line-height-font-h3;
 }

@@ -1,10 +1,49 @@
 ---
+import Layout from "../layouts/Layout.astro";
 import Hero from "../components/Hero.astro";
 import BenefitBar from "../components/BenefitBar.astro";
-import Layout from "../layouts/Layout.astro";
+import Section from "../components/Section.astro";
 ---
 
 <Layout title="Ebook - Manual do Guarda Roupa Versátil">
   <Hero />
   <BenefitBar />
+  <Section className="l-section--benefits">
+    <div class="l-section__wrapper">
+      <h2 class="c-title">Seu guarda roupa não será mais o mesmo</h2>
+
+      <p class="c-text">
+        Acredito que você já tenha pensado que precisa de muito dinheiro e
+        seguir todas as tendências de moda para se vestir bem, e é exatamente o
+        contrário.
+      </p>
+
+      <p class="c-text">
+        Roupas atemporais e versáteis, são aquelas que você pode usar em
+        qualquer época do ano, independente da <strong>TENDÊNCIA</strong> que
+        surgir.
+      </p>
+      <p class="c-text">
+        Além disso, você pode adaptar e valorizar mais seu estilo, acrescentando
+        acessórios, calçados, cores, criando versatilidade no seu guarda roupa.
+      </p>
+      <p class="c-text">
+        E foi pensando nesses pontos que desenvolvi esse material.
+      </p>
+
+      <h3 class="u-h3">
+        Abaixo, um pouco do que você terá ao adquirir o MANUAL DO GUARDA ROUPA
+        VERSÁTIL:
+      </h3>
+    </div>
+
+    <div class="l-section__wrapper">
+      <img
+        class="c-image"
+        src="/images/ebook-manual-do-guarda-roupa-versatil.jpg"
+        alt="Ebook Manual do guarda roupa versátil"
+        title="Capa do ebook Manual do guarda roupa versátil"
+      />
+    </div>
+  </Section>
 </Layout>

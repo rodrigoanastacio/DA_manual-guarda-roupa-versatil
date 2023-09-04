@@ -1,13 +1,23 @@
 .c-title {
   width: 100%;
   max-width: 1030px;
-  font-size: rem($font-display-mobile);
+  font-size: rem($font-title-mobile);
   font-weight: bold;
-  line-height: rem($line-height-display-mobile);
+  line-height: rem($line-height-title-mobile);
 
   @include media-up(md) {
-    font-size: rem($font-display);
-    line-height: rem($line-height-display);
+    font-size: rem($font-title);
+    line-height: rem($line-height-title);
+  }
+
+  &--display {
+    font-size: rem($font-display-mobile);
+    line-height: rem($line-height-display-mobile);
+
+    @include media-up(md) {
+      font-size: rem($font-display);
+      line-height: rem($line-height-display);
+    }
   }
 
   &__pretitle {

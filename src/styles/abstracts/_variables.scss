@@ -1,5 +1,8 @@
 //== typography
 // Desktop
+$font-title: 32px;
+$line-height-title: 42px;
+
 $font-display: 40px;
 $line-height-display: 50px;
 
@@ -9,7 +12,16 @@ $line-height-pretitle: 24px;
 $font-subtitle: 24px;
 $line-height-subtitle: 32px;
 
+$font-text: 16px;
+$line-height-text: 24px;
+
+$font-h3: 24px;
+$line-height-font-h3: 34px;
+
 // Mobile
+$font-title-mobile: 28px;
+$line-height-title-mobile: 38px;
+
 $font-display-mobile: 28px;
 $line-height-display-mobile: 38px;
 
