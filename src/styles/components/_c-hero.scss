@@ -8,6 +8,7 @@
   background-position: center right;
 
   @include media-up(md) {
+    height: calc(100vh - 114.5px);
     background-position: center;
   }
 }
