@@ -1,0 +1,16 @@
+.c-tag {
+  color: var(--green-600);
+  text-transform: uppercase;
+  margin-bottom: rem(16px);
+
+  display: flex;
+
+  &__icon {
+    display: flex;
+    align-items: center;
+  }
+
+  &__text {
+    margin-left: rem(8px);
+  }
+}
