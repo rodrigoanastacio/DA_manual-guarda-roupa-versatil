@@ -3,6 +3,7 @@ import Layout from "../layouts/Layout.astro";
 import Hero from "../components/Hero.astro";
 import BenefitBar from "../components/BenefitBar.astro";
 import Section from "../components/Section.astro";
+import Benefit from "../components/Benefit.astro";
 ---
 
 <Layout title="Ebook - Manual do Guarda Roupa Versátil">
@@ -46,4 +47,75 @@ import Section from "../components/Section.astro";
       />
     </div>
   </Section>
+
+  <Benefit
+    pathImage="/images/direcionamentos-essenciais-para-descobrir-seu-estilo.jpg"
+    altText="Direcionamentos essenciais para descobrir e entender seu estilo"
+    bgClass="c-benefit--bg-primary"
+  >
+    <div class="c-benefit__text-content">
+      <h2 class="c-title">
+        Direcionamentos essenciais para descobrir e entender seu estilo
+      </h2>
+
+      <p class="c-text">
+        Você vai ter acesso a METODOLOGIA que utilizo na minha Consultoria de
+        Estilo e através dela reconhecer cores, modelagens, formas e outras
+        coisas que representam seu estilo pessoal.
+      </p>
+
+      <p class="c-text">
+        Conhecendo o que você gosta é muito mais fácil saber quais roupas usar.
+      </p>
+    </div>
+  </Benefit>
+
+  <Benefit
+    pathImage="/images/gastar-menos-com-roupas.jpg"
+    altText="Gastar menos com roupas e saber o que você realmente precisa ter no seu armário"
+    bgClass="c-benefit--bg-secondary"
+    reverseImage
+  >
+    <div class="c-benefit__text-content">
+      <h2 class="c-title">
+        Gastar menos com roupas e saber o que você realmente precisa ter no seu
+        armário
+      </h2>
+
+      <p class="c-text">
+        No Manual você terá um passo a passo de como fazer um detox no seu
+        guarda roupa, através dessa organização será possível ver quais peças
+        precisa comprar ou não.
+      </p>
+
+      <p class="c-text">
+        E para complementar um capítulo sobre compra inteligente, para você
+        aprender avaliar melhor as roupas que escolhe e como criar no mínimo 3
+        combinações com uma peça nova.
+      </p>
+    </div>
+  </Benefit>
+
+  <Benefit
+    pathImage="/images/combinacoes-e-looks.jpg"
+    altText="Exemplos práticos para criar diversas combinações, e looks montados"
+    bgClass="c-benefit--bg-primary"
+  >
+    <div class="c-benefit__text-content">
+      <h2 class="c-title">
+        Exemplos práticos para criar diversas combinações, com referências de
+        imagens e looks montados
+      </h2>
+
+      <p class="c-text">
+        Repetir roupa não significa repetir look, e você pode usar uma peça de
+        diversas formas mudando apenas os acessórios e o calçado.
+      </p>
+
+      <p class="c-text">
+        Você ganha uma guarda roupa versátil, e vai se vestir bem em diversas
+        ocasiões, e o melhor: VALORIZANDO seu estilo pessoal.
+      </p>
+    </div>
+  </Benefit>
 </Layout>

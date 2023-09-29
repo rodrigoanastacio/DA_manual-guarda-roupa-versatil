@@ -1,0 +1,19 @@
+---
+interface Props {
+  pathImage: string;
+  altText?: string;
+  bgClass?: string;
+  reverseImage?: boolean;
+}
+
+const { pathImage, altText, bgClass, reverseImage } = Astro.props;
+---
+
+<section
+  class=`c-benefit ${reverseImage ? 'c-benefit--reverse' : ""} ${bgClass}`
+>
+  <div class="c-benefit__image">
+    <img src={pathImage} alt={altText} />
+  </div>
+  <slot />
+</section>
