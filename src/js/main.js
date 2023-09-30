@@ -8,6 +8,7 @@ const scrollAnimations = () => {
       trigger: section,
       start: "top top",
       pin: true,
+      end: "bottom",
       pinSpacing: false,
     });
   });
