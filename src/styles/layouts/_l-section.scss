@@ -47,4 +47,30 @@
       @include border-radius(16px);
     }
   }
+
+  &--conversion {
+    position: relative;
+    width: 100%;
+    background-color: #fff;
+    text-align: center;
+
+    @include media-up(md) {
+      height: 100vh;
+    }
+
+    & .c-container {
+      @include flex-element(row, center, center);
+    }
+
+    & .c-text {
+      font-size: rem(32px);
+      line-height: rem(40px);
+      color: var(--gray-800);
+
+      & + .c-button {
+        margin-top: rem(40px);
+        display: inline-block;
+      }
+    }
+  }
 }
