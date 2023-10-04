@@ -1,7 +1,4 @@
 .l-section {
-  padding-top: rem(120px);
-  padding-bottom: rem(120px);
-
   & .c-container {
     @include flex-element(column, start, start);
 
@@ -24,6 +21,9 @@
   }
 
   &--benefits {
+    padding-top: rem(120px);
+    padding-bottom: rem(120px);
+
     & .c-container {
       gap: rem(60px);
 
@@ -49,6 +49,8 @@
   }
 
   &--conversion {
+    padding-top: rem(120px);
+    padding-bottom: rem(120px);
     position: relative;
     width: 100%;
     background-color: #fff;
@@ -70,6 +72,44 @@
       & + .c-button {
         margin-top: rem(40px);
         display: inline-block;
+      }
+    }
+  }
+
+  &--about-me {
+    & .c-container {
+      @include flex-element(column, center, center);
+      gap: rem(48px);
+
+      @include media-up(md) {
+        @include flex-element(row, center, start);
+        gap: rem(24px);
+      }
+    }
+
+    &__image {
+      display: flex;
+      justify-content: center;
+      flex: 100%;
+      max-width: 100%;
+
+      @include media-up(md) {
+        max-width: 41.666667%; // 5 cols
+      }
+
+      > img {
+        display: flex;
+        width: 100%;
+        max-width: rem(340px);
+      }
+    }
+
+    &__content {
+      flex: 100%;
+      max-width: 100%;
+
+      @include media-up(md) {
+        max-width: 58.333333%; // 7 cols
       }
     }
   }
