@@ -15,15 +15,23 @@
   --green-200: #938777;
   --green-100: #aaa296;
 
+  --coral: #f8ebd2;
+
   --gray-800: #0d1525;
   --gray-700: #323334;
   --gray-500: #706c6c;
   --gray-100: #d6d4d4;
+
+  --white: #ffffff;
 }
 
 html,
 body {
   font-family: "Lato", sans-serif;
+
+  p {
+    color: var(--gray-500);
+  }
 
   a {
     color: inherit;

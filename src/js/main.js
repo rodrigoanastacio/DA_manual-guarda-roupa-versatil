@@ -1,5 +1,7 @@
 import { gsap, ScrollTrigger } from "gsap/all";
 
+import { openAccordion } from "./components/Accordion";
+
 gsap.registerPlugin(ScrollTrigger);
 
 const scrollAnimations = () => {
@@ -20,3 +22,5 @@ ScrollTrigger.matchMedia({
     scrollAnimations();
   },
 });
+
+openAccordion();

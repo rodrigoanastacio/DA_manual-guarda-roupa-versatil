@@ -113,4 +113,19 @@
       }
     }
   }
+
+  &--faq {
+    padding-top: rem(120px);
+    padding-bottom: rem(120px);
+
+    background-color: var(--coral);
+
+    & .c-container {
+      @include flex-element(column, flex-start, center);
+
+      // @include media-up(md) {
+      //   @include flex-element(row, center, start);
+      // }
+    }
+  }
 }
